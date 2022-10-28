@@ -1,4 +1,31 @@
-baseURL = "https://example.org/"
+baseURL = "https://programmeriosif.github.io/pc-components/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Componentele unui calculator"
+theme = "PaperMod"
+[params]
+ShowPostNavLinks = true
+
+[[menu.main]]
+identifier = "Main"
+name = "Home"
+url = "/"
+weight = 5
+
+[[menu.main]]
+identifier = "calculatorul"
+name = "Calculatorul"
+url = "/posts/calculatorul"
+weight = 10
+
+[[menu.main]]
+identifier = "componente"
+name = "Componete"
+url = "/posts/cpu"
+weight = 20
+
+[[menu.main]]
+identifier = "fdsl"
+name = "Placa Grafica"
+url = "/posts/placa-grafica"
+weight = 30
+
