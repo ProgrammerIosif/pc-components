@@ -23,9 +23,3 @@ name = "Componete"
 url = "/posts/cpu"
 weight = 20
 
-[[menu.main]]
-identifier = "fdsl"
-name = "Placa Grafica"
-url = "/posts/placa-grafica"
-weight = 30
-
