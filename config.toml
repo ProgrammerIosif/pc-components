@@ -3,23 +3,7 @@ languageCode = "en-us"
 title = "Componentele unui calculator"
 theme = "PaperMod"
 [params]
+ShowBreadCrumbs = true
 ShowPostNavLinks = true
-
-[[menu.main]]
-identifier = "Main"
-name = "Home"
-url = "/"
-weight = 5
-
-[[menu.main]]
-identifier = "calculatorul"
-name = "Calculatorul"
-url = "/posts/calculatorul"
-weight = 10
-
-[[menu.main]]
-identifier = "componente"
-name = "Componete"
-url = "/posts/cpu"
-weight = 20
-
+    [params.cover]
+    linkFullImages = true
