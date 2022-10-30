@@ -3,7 +3,13 @@ languageCode = "en-us"
 title = "Componentele unui calculator"
 theme = "PaperMod"
 [params]
-ShowBreadCrumbs = true
+ShowBreadCrumbs = false
 ShowPostNavLinks = true
     [params.cover]
     linkFullImages = true
+
+[[menu.main]]
+identifier = "home"
+name = "ACASA"
+url = "/"
+weight = 10
