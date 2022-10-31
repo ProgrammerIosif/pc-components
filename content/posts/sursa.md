@@ -2,6 +2,7 @@
 title: "Sursa"
 weight: 7
 draft: false
+hideFooter: true
 cover:
     image: https://images.unsplash.com/photo-1659856577105-c8ec1a364aa0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600&q=80
 ---
