@@ -1,5 +1,5 @@
 ---
-title: "Memorie Externa"
+title: "Dispozitive de stocare"
 weight: 6
 draft: false
 hideFooter: true

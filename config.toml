@@ -1,9 +1,26 @@
 baseURL = "https://programmeriosif.github.io/pc-components/"
 languageCode = "en-us"
-title = "Componentele unui calculator"
 theme = "PaperMod"
 [params]
 ShowBreadCrumbs = false
+hideMeta = true
 ShowPostNavLinks = true
     [params.cover]
     linkFullImages = true
+
+defaultContentLang = 'ro'
+[languages]
+  [languages.ro]
+    contentDir = 'content/romana'
+    languageName = 'Romana'
+    weight = 1
+    title = "Componentele unui calculator"
+    nav_prev = "INAPOI"
+    nav_next = "INAINTE"
+  [languages.en]
+    contentDir = 'content/english'
+    languageName = 'English'
+    weight = 2
+    title = "Computer components"
+    nav_prev = "PREVIOUS"
+    nav_next = "NEXT"
